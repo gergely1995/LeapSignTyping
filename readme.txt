@@ -1,14 +1,16 @@
 LeapATM
-https://github.com/gergely1995/LeapSignTyping/
+https://github.com/gergely1995/LeapATM/
 
 Copyright 2020 Gergely Szentgyörgyi
 Released under the Apache-2.0 license
-https://github.com/gergely1995/LeapSignTyping/blob/master/LICENSE
+https://github.com/gergely1995/LeapATM/blob/master/LICENSE
 
 
 To test open typingExperiment.html in a browser.
 
 This project is intended for functionality experimentation so the UI is kept simple.
+
+The idea is to create a stable and easy way to type using a touch less interface.
 
 Actions:
 All relevant actions have animated guide at the bottom of the page.
