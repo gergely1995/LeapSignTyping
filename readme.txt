@@ -5,6 +5,9 @@ Copyright 2020 Gergely Szentgyörgyi
 Released under the Apache-2.0 license
 https://github.com/gergely1995/LeapATM/blob/master/LICENSE
 
+This project uses:
+https://github.com/leapmotion/leapjs/blob/master/leap-1.0.0.js
+(included in the data folder)
 
 To test open typingExperiment.html in a browser.
 
