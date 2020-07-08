@@ -1,9 +1,9 @@
 LeapATM
-https://github.com/gergely1995/LeapATM/
+https://github.com/gergely1995/LeapSignTyping/
 
 Copyright 2020 Gergely Szentgyörgyi
 Released under the Apache-2.0 license
-https://github.com/gergely1995/LeapATM/blob/master/LICENSE
+https://github.com/gergely1995/LeapSignTyping/blob/master/LICENSE
 
 
 To test open typingExperiment.html in a browser.
