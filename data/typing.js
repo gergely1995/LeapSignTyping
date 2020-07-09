@@ -59,7 +59,7 @@ function signToInt(frame){
                 return 1;
             }
 //            /*6*/else if(!hand.thumb.extended&&!hand.indexFinger.extended&&!hand.middleFinger.extended&&!hand.ringFinger.extended&&hand.pinky.extended){
-            /*6*/else if(!hand.thumb.extended&&!hand.indexFinger.extended&&!hand.middleFinger.extended&&!hand.ringFinger.extended&&hand.pinky.direction[0]>-0.8){
+            /*6*/else if(!hand.thumb.extended&&!hand.indexFinger.extended&&!hand.middleFinger.extended&&!hand.ringFinger.extended&&hand.pinky.direction[0]>0.1){
                 AO[0][0]=true;
                 console.log(6);
                 return 6;
@@ -122,8 +122,11 @@ controller.loop(function(frame) {
                 console.log(AO[1][AO[0][1]][AO[0][2]]);
 //                if(document.getElementById("AO_"+AO[0][1]+"_"+i)){
 //                    document.getElementById("AO_"+AO[0][1]+"_"+AO[0][2]).style["color"]="red";
-                document.getElementById("AO_"+AO[0][1]+"_"+AO[0][2]).style["color"]="white";
-                document.getElementById("AO_"+AO[0][1]+"_"+AO[0][2]).style["background-color"]="#34363A";
+//                if(AO[0][2]>AO[1][AO[0][1]].length-1){AO[0][2]=AO[1][AO[0][1]].length-1;}
+                if(AO[0][2]>AO[1][AO[0][1]].length-1){AO[0][2]=null;}else{
+                    document.getElementById("AO_"+AO[0][1]+"_"+AO[0][2]).style["color"]="white";
+                    document.getElementById("AO_"+AO[0][1]+"_"+AO[0][2]).style["background-color"]="#34363A";
+                }
 //                }
             }
         }
