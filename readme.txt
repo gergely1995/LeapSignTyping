@@ -1,13 +1,17 @@
-LeapATM
-https://github.com/gergely1995/LeapATM/
+LeapSignTyping
+https://github.com/gergely1995/LeapSignTyping
 
 Copyright 2020 Gergely Szentgyörgyi
 Released under the Apache-2.0 license
-https://github.com/gergely1995/LeapATM/blob/master/LICENSE
+https://github.com/gergely1995/LeapSignTyping/blob/master/LICENSE
 
 This project uses:
 https://github.com/leapmotion/leapjs/blob/master/leap-1.0.0.js
 (included in the data folder)
+
+
+Unedited video:
+
 
 To test open typingExperiment.html in a browser.
 
