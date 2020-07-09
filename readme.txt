@@ -25,9 +25,9 @@ You can also refer to the demo video.
 
 -numbers by holding up fingers
 Used for selecting characters from the on screen alphabet.
+Wait for about a second for response and make a fist each time after showing a number. (This is used for avoiding accidental triggers.)
 The first number you show is the row.
 Second number is the column.
-Make a fist each time after showing a number. (This is used for avoiding accidental triggers.)
 
 -thumbs up and down (slightly tilted)
 Upward used for confirming a selected character.
