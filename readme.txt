@@ -10,8 +10,8 @@ https://github.com/leapmotion/leapjs/blob/master/leap-1.0.0.js
 (included in the data folder)
 
 
-Unedited video:
-
+Video (uncut):
+https://vimeo.com/436723518
 
 To test open typingExperiment.html in a browser.
 
